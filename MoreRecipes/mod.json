@@ -1,0 +1,72 @@
+{
+  "name": "More Recipes",
+  "description": "Add more recipes to improve Cube in Singleplayer",
+  "author": "IntSomnium",
+  "website": "https://github.com/VtorHdev/d2rmm-mods",
+  "version": "1.7",
+  "config": [
+    {
+      "id": "recipeToken",
+      "type": "checkbox",
+      "name": "Recipe: Easy Token of Absolution",
+      "description": "Scroll of Town Portal + Scroll of Identify -> Token of Absolution",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeCows",
+      "type": "checkbox",
+      "name": "Recipe: Fast Cows",
+      "description": "Wirt's Leg  -> Portal to The Secret Cow Level",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeUbers",
+      "type": "checkbox",
+      "name": "Recipe: Fast Ubers",
+      "description": "Any Organ + Standard of Heroes -> Portal to Uber Tristam",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeKhalim",
+      "type": "checkbox",
+      "name": "Recipe: Fast Act 3",
+      "description": "Khalim's Flail -> Khalim's Will",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeLarzukSocket",
+      "type": "checkbox",
+      "name": "Recipe: Socket Unique/Set",
+      "description": "Unique/Set + Hel Rune + Perfect Gem -> Socketed Unique/Set",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeRerollSockets",
+      "type": "checkbox",
+      "name": "Recipe: Reroll Sockets Bases",
+      "description": "Base + Hel Rune + Jewel -> Rerolled Sockets Base",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeRerollCharms",
+      "type": "checkbox",
+      "name": "Recipe: Easy Reroll Charms",
+      "description": "Perfect Gem + Margic Charm -> Rerolled Charm. DON'T USE UNIQUE CHARMS!",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeUpgradeRunes",
+      "type": "checkbox",
+      "name": "Recipes: Upgrade Runes without gems",
+      "description": "No more gems to upgrade runes. Same quantity needed.",
+      "defaultValue": true
+    },
+    {
+      "id": "recipeDowngradeRunes",
+      "type": "checkbox",
+      "name": "Recipes: Downgrade Rune",
+      "description": "Rune -> Lower Rune (Eld -> El, Amn -> Thul, ...)",
+      "defaultValue": true
+    }
+  ]
+}
